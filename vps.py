@@ -8,7 +8,7 @@ import threading
 import subprocess
 
 # --- Configuration ---
-bot = telebot.TeleBot('7437959233:AAFmyhvCozZI6W96Gr_KTarJ-TSLZ14gwbA')
+bot = telebot.TeleBot('7713196642:AAHUYOgrObHz1Mm7SIPxpUDJfemst8GbDT0')
 
 # Admin user IDs
 admin_id = {"6127576279"}  # Replace with actual admin ID
@@ -169,7 +169,7 @@ def redeem_key_command(message):
         else:
             response = "📛 𝗞𝗲𝘆 𝗲𝘅𝗽𝗶𝗿𝗲𝗱 𝗼𝗿 𝗶𝗻𝘃𝗮𝗹𝗶𝗱 📛"
     else:
-        response = "💎 𝗞𝗘𝗬 𝗥𝗘𝗗𝗘𝗠𝗣𝗧𝗜𝗢𝗡 💎\n━━━━━━━━━━━━━━━\n📝 𝗨𝘀𝗮𝗴𝗲: /redeem 𝗡𝗜𝗥𝗔𝗝-𝗩𝗜𝗣-𝗫𝗫𝗫𝗫\n\n⚠️ 𝗜𝗺𝗽𝗼𝗿𝘁𝗮𝗻𝘁 𝗡𝗼𝘁𝗲𝘀:\n• 𝗞𝗲𝘆𝘀 𝗮𝗿𝗲 𝗰𝗮𝘀𝗲-𝘀𝗲𝗻𝘀𝗶𝘁𝗶𝘃𝗲\n• 𝗢𝗻𝗲-𝘁𝗶𝗺𝗲 𝘂𝘀𝗲 𝗼𝗻𝗹𝘆\n• 𝗡𝗼𝗻-𝘁𝗿𝗮𝗻𝘀𝗳𝗲𝗿𝗮𝗯𝗹𝗲\n\n🔑 𝗘𝘅𝗮𝗺𝗽𝗹𝗲: /redeem 𝗡𝗜𝗥𝗔𝗝-𝗩𝗜𝗣-𝗔𝗕𝗖𝗗𝟭𝟮𝟯𝟰\n\n💡 𝗡𝗲𝗲𝗱 𝗮 𝗸𝗲𝘆? 𝗖𝗼𝗻𝘁𝗮𝗰𝘁 𝗢𝘂𝗿 𝗔𝗱𝗺𝗶𝗻𝘀 𝗢𝗿 𝗥𝗲𝘀𝗲𝗹𝗹𝗲𝗿𝘀/n━━━━━━━━━━━━━━━"
+        response = "💎 𝗞𝗘𝗬 𝗥𝗘𝗗𝗘𝗠𝗣𝗧𝗜𝗢𝗡 💎\n━━━━━━━━━━━━━━━\n📝 𝗨𝘀𝗮𝗴𝗲: /redeem VKP-𝗩𝗜𝗣-𝗫𝗫𝗫𝗫\n\n⚠️ 𝗜𝗺𝗽𝗼𝗿𝘁𝗮𝗻𝘁 𝗡𝗼𝘁𝗲𝘀:\n• 𝗞𝗲𝘆𝘀 𝗮𝗿𝗲 𝗰𝗮𝘀𝗲-𝘀𝗲𝗻𝘀𝗶𝘁𝗶𝘃𝗲\n• 𝗢𝗻𝗲-𝘁𝗶𝗺𝗲 𝘂𝘀𝗲 𝗼𝗻𝗹𝘆\n• 𝗡𝗼𝗻-𝘁𝗿𝗮𝗻𝘀𝗳𝗲𝗿𝗮𝗯𝗹𝗲\n\n🔑 𝗘𝘅𝗮𝗺𝗽𝗹𝗲: /redeem 𝗡𝗜𝗥𝗔𝗝-𝗩𝗜𝗣-𝗔𝗕𝗖𝗗𝟭𝟮𝟯𝟰\n\n💡 𝗡𝗲𝗲𝗱 𝗮 𝗸𝗲𝘆? 𝗖𝗼𝗻𝘁𝗮𝗰𝘁 𝗢𝘂𝗿 𝗔𝗱𝗺𝗶𝗻𝘀 𝗢𝗿 𝗥𝗲𝘀𝗲𝗹𝗹𝗲𝗿𝘀/n━━━━━━━━━━━━━━━"
 
     bot.reply_to(message, response)
 
